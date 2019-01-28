@@ -15,14 +15,25 @@ function removeColor(el){
 }
 
 function tunaParty(el){
-	document.getElementById("purple").src = "images/tuna4.jpg";
 	document.getElementById("grey").src = "images/tuna4.jpg";
 	document.getElementById("green").src = "images/tuna4.jpg";
 	document.getElementById("green2").src = "images/tuna4.jpg";
+	document.getElementById("purple").classList.add("block");
 
 }
 
 function tunaParty2(el){
 	document.getElementById("blue").src = "images/tuna3.jfif";
 	document.getElementById("orange2").src = "images/tuna3.jfif";
+}
+
+function resetButton(el){
+	document.getElementById("reset").src = "images/resetbuttonpush.png";
+	document.getElementById("grey").src = "";
+	document.getElementById("green").src = "";
+	document.getElementById("green2").src = "";
+	document.getElementById("orange2").src = "images/tuna2.jfif";
+	document.getElementById("blue").src = "images/stockimg3.jfif";
+
+
 }

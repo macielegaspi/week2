@@ -28,6 +28,11 @@ body {
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 
+.reset {
+	max-height: 50%;
+	max-width: 50%;
+}
+
 /* When possible, organize CSS classes in alphabetical order */
 .gold {
 	background-color: #C5B358;
