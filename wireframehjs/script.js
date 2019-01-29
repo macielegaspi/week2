@@ -19,12 +19,14 @@ function tunaParty(el){
 	document.getElementById("green").src = "images/tuna4.jpg";
 	document.getElementById("green2").src = "images/tuna4.jpg";
 	document.getElementById("purple").classList.add("block");
+	document.getElementById("reset").src = "images/resetbutton.png";
 
 }
 
 function tunaParty2(el){
 	document.getElementById("blue").src = "images/tuna3.jfif";
 	document.getElementById("orange2").src = "images/tuna3.jfif";
+	document.getElementById("reset").src = "images/resetbutton.png";
 }
 
 function resetButton(el){
